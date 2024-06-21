@@ -1,0 +1,61 @@
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+.postItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  gap: 10px;
+  padding: 10px;
+  background-color: #ccabab;
+  border-radius: 5px;
+  width: 32.3%;
+  height: 200px;
+  position: relative;
+}
+
+.actionBar {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+  background-color: #ccabab;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.actionButton {
+  padding: 5px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 34%;
+  left: 34%;
+  background-color: rgb(82 82 82 / 90%);
+  color: #fff;
+  border-radius: 20px;
+  width: 35%;
+  height: 40%;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.cancel {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
